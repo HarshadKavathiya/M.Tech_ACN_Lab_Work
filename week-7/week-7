@@ -1,0 +1,14 @@
+7. Design experiments that will produce ICMP messages of the following
+type in a packet trace.
+(1) Type 0, code 0
+(2) Type 3, code 3
+(3) Type 8, code 0
+Ans:
+
+(1) sudo tcpdump -w 1.cap -i eth0 dst 172.16.58.32
+	 
+(2)  sudo tcpdump -w 2.cap -i eth0 icmp
+ping 172.16.19.203 -p 51543
+     
+(3) sudo tcpdump -w 3.cap -i eth0 src 172.16.58.126
+

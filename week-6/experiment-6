@@ -1,0 +1,7 @@
+cse_3004@pgcp-06:~$ sudo tcpdump -w harshad.pcap -i eth0 dst 172.16.58.69
+[sudo] password for cse_3004: 
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+^C197 packets captured
+198 packets received by filter
+0 packets dropped by kernel
+
